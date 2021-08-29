@@ -1,0 +1,30 @@
+{
+  "name": "@identity-box/cli",
+  "description": "CLI for exploring Identity Box services via IPC",
+  "version": "0.0.1",
+  "files": [
+    "commands"
+  ],
+  "keywords": [
+    "IPC",
+    "Identity Box"
+  ],
+  "author": "Marcin Czenko",
+  "license": "ISC",
+  "homepage": "https://idbox.online",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/identity-box/service-tester"
+  },
+  "type": "module",
+  "bin": {
+    "cli": "./commands/cli.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@identity-box/utils": "^0.1.32",
+    "commander": "^8.1.0"
+  }
+}

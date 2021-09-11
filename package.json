@@ -1,6 +1,6 @@
 {
   "name": "@identity-box/cli",
-  "description": "CLI for exploring Identity Box services via IPC",
+  "description": "CLI for Identity Box",
   "version": "0.0.2",
   "files": [
     "commands"

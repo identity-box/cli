@@ -14,7 +14,7 @@
   "homepage": "https://idbox.online",
   "repository": {
     "type": "git",
-    "url": "https://github.com/identity-box/service-tester"
+    "url": "https://github.com/identity-box/cli"
   },
   "type": "module",
   "bin": {

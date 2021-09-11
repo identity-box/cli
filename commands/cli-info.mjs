@@ -31,7 +31,6 @@ program.name('info')
   .option('-b, --boxOffice', 'send message to the box-office and let the box-office to dispatch the message to the appropriate service', false)
   .action((servicePath) => {
     const { boxOffice } = program.opts()
-    console.log('boxOffice=', boxOffice)
     getAppInfo({ servicePath, boxOffice })
   })
 

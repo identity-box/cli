@@ -19,6 +19,7 @@ const main = async () => {
       process.exit(1)
     })
   program.command('info', 'query the package description via IPC call')
+  program.command('upgrade-to-yarn2', 'updates the existing service to use yarn 2 in the node_modules linking mode')
 
   program.parse()
 }

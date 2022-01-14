@@ -1,7 +1,7 @@
 {
   "name": "@identity-box/cli",
   "description": "CLI for Identity Box",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "files": [
     "commands"
   ],

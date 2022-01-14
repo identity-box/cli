@@ -53,3 +53,23 @@ to silent the output from the executed commands:
 $ cd ~/idbox/nameservice
 $ npx @identity-box/cli upgrade-to-yarn2 -s
 ```
+
+### install-service
+
+This command will (fresh) install an Identity Box service. The command takes a service name as an argument.
+
+> The command will first try to delete the directory indicated by the service name, and then it will re-create the that directory and install the given service there.
+
+#### Usage
+
+```bash
+$ cd ~/idbox/
+$ npx @identity-box/cli install-service <serviceName>
+```
+
+to silent the output from the executed commands:
+
+```bash
+$ cd ~/idbox
+$ npx @identity-box/cli install-service <serviceName> -s
+```

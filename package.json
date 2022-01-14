@@ -1,9 +1,10 @@
 {
   "name": "@identity-box/cli",
   "description": "CLI for Identity Box",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "files": [
-    "commands"
+    "commands",
+    "lib"
   ],
   "keywords": [
     "IPC",
@@ -24,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@identity-box/utils": "^0.1.32",
+    "@identity-box/utils": "^0.1.33",
     "chalk": "^4.1.2",
     "commander": "^8.1.0",
     "shelljs": "^0.8.4"
